@@ -101,8 +101,9 @@
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         background-color: #292F32;
-        position: sticky;
+        position: fixed;
         bottom: 0;
+        width: 16rem;
         top: 4rem;
     }
 
@@ -155,7 +156,7 @@
                 color: grey;
                 font-size: .8rem;
                 position: absolute;
-                bottom: 4rem;
+                bottom: 2rem;
               }
 
               .results em {
